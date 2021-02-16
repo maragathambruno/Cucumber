@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-08T11:08:21.707Z",
+        "line": 3,
+        "name": "To verify login functionality with valid username and password in Facebook",
+        "description": "",
+        "id": "to-validate-the-login-functionality-scenario;to-verify-login-functionality-with-valid-username-and-password-in-facebook",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10323151700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User has to launch the browser and hit FB url",
+            "match": {
+              "location": "LoginSteps.user_has_to_launch_the_browser_and_hit_FB_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 374352900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user has to enter the username and password",
+            "match": {
+              "location": "LoginSteps.user_has_to_enter_the_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "maragatham",
+                  "12345"
+                ]
+              },
+              {
+                "cells": [
+                  "bruno",
+                  "54321"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102378700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click the login button",
+            "match": {
+              "location": "LoginSteps.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 177700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user can able to enter the home page",
+            "match": {
+              "location": "LoginSteps.user_can_able_to_enter_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality scenario",
+    "description": "",
+    "id": "to-validate-the-login-functionality-scenario",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/login.feature",
+    "tags": []
+  }
+]

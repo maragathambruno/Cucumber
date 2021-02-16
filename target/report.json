@@ -1,0 +1,118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2525635700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User has to launch the browser and hit FB url",
+            "match": {
+              "location": "LoginSteps.user_has_to_launch_the_browser_and_hit_FB_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-09T10:10:46.408Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3971377700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 273182900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecutionGroup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "to validate the forgot password link",
+        "description": "",
+        "id": "to-validate-the-login-functionality-scenario;to-validate-the-forgot-password-link",
+        "after": [
+          {
+            "result": {
+              "duration": 806158900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat org.stepdefinition.LoginSteps.user_has_to_click_the_forgot_password_link(LoginSteps.java:45)\r\n\tat ✽.user has to click the forgot password link(file:src/test/resources/login.feature:17)\r\n",
+              "duration": 10933800,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "user has to click the forgot password link",
+            "match": {
+              "location": "LoginSteps.user_has_to_click_the_forgot_password_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1390500,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user has to enter the mobile number",
+            "match": {
+              "location": "LoginSteps.user_has_to_enter_the_mobile_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1252900,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user has to navigate the OTP page",
+            "match": {
+              "location": "LoginSteps.user_has_to_navigate_the_OTP_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality scenario",
+    "description": "",
+    "id": "to-validate-the-login-functionality-scenario",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/login.feature",
+    "tags": []
+  }
+]
